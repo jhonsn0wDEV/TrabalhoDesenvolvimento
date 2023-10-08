@@ -4,12 +4,6 @@
 body {
     font-family: sans-serif;
   }
-  
-  .container {
-    width: 500px;
-    margin: 0 auto;
-  }
-  
   .row {
     display: flex;
     justify-content: center;
