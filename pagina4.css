@@ -6,12 +6,12 @@
     align-items: center;
 }
 .ladoesquerdo{
-    width: 50%;
+    width: 100%;
     height: 40vh;
     border: none;
 }
 .ladodireito{
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center ;
