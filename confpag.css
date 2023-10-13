@@ -1,47 +1,92 @@
-.parent{
-    text-align : center;
-   }
-body {
-    font-family: sans-serif;
+/*espaçamento div*/
+.div{
+  height: auto;
+  width: auto;
+  padding: auto;
+}
+/*espaço entre conteiner*/
+div.container1{
+    height: auto;
+    width: auto;
+    padding: 30px;
   }
-  .row {
+
+/* corpo do código*/
+body {
+     
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*background-image: url("imagembackground.jpg");*/
+    background-color: bisque;
+    /*background-attachment: fixed;
+    background-size: cover;*/
+    padding: auto;
+  }
+ 
+  /*estilo das colunas*/
+  div.column {
+    float: center;
+    width: 30%;
+    padding:auto;
+    }
+  /* estilo das linhas*/
+  div.row {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: auto;
   }
-  
-  .col-sm-3 {
-    width: 25%;
+    
+
+  /*alinhamentos de imagens da pag 2 e 3 */
+  .flex{
+    display: flex;
+    justify-content: space-between;
   }
-  
-  img {
-    max-width: 100%;
+  .flex2 {
+    display: flex;
+    align-items: center;
   }
-  
-  p {
-    margin-top: 10px;
-  }
-  
-  @media (max-width: 768px) {
-    .row {
-      flex-wrap: wrap;
-    }
-  
-    .col-sm-3 {
-      width: 50%;
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .row {
-      flex-wrap: wrap;
-    }
-  
-    .col-sm-3 {
-      width: 100%;
-    }
-    body {
-        width: 500px;
-        margin: 0 auto;
+/*rodape final*/
+footer {
+  text-align: center;
+  padding: auto;
 }
-  }
+
+/*estilo da imagem icones pag2*/
+
+div.container2{
+  clear: both;
+  width: 500px;
+  margin: 10px auto;
+  justify-content: space-between;
+  padding: auto;
+  
+}
+
+div.container3{
+  width: 500px;
+  margin: 0 auto;
+  width: 500px;
+  padding: auto;
+}
+
+.img {
+  float: left;
+  border: thin solid;
+  margin: top 30px;
+  padding: auto;
+
+}
+
+.texto {
+  position: absolute;
+  margin-right: 10px;
+  text-align: left;
+  top: 0;
+  right: 0;
+  margin-right: 10px;
+}
+
+/*estio de imagem da pag3*/
+

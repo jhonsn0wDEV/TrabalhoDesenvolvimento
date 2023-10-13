@@ -9,12 +9,6 @@
 .rodape{
     margin: 0; 
     padding: 0;
-    border-style: double;
-    border-color: aqua;
-}
-.esqrd{
-   justify-content: left;
-}
-.drt{
-    text-align: right;
+    display: flex;
+    justify-content: space-between ;
 }
